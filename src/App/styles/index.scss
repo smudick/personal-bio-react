@@ -1,8 +1,10 @@
 @import '~bootstrap/dist/css/bootstrap.min.css';
-@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
 @import 'variables';
 @import 'skills';
+@import 'projects';
 
 body {
-  background-color: $favColor;
+  background-color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
 }
