@@ -1,37 +1,30 @@
 import React from 'react';
 import 'firebase/auth';
 import { Link } from 'react-router-dom';
-import {
-  NavbarBrand,
-  Nav,
-  NavItem,
-  Navbar,
-} from 'reactstrap';
+import M from 'materialize-css';
 
 export default class MyNavbar extends React.Component {
   render() {
     return (
       <div>
-        <Navbar color='light' light expand='md'>
-          <NavbarBrand href='/'>Sam Mudick</NavbarBrand>
-          <Nav className='mr-auto justify-content-left' navbar>
-            <NavItem>
-              <Link className='nav-link' to='/about'>
-                About Me
-              </Link>
-            </NavItem>
-            <NavItem>
-              <Link className='nav-link' to='/skills'>
-                Skills
-              </Link>
-            </NavItem>
-            <NavItem>
-              <Link className='nav-link' to='/projects'>
-                Projects
-              </Link>
-            </NavItem>
-          </Nav>
-        </Navbar>
+        <nav>
+          <div class='nav-wrapper'>
+            <Link to='/' class='brand-logo'>
+              Sam Mudick
+            </Link>
+            <ul id='nav-mobile' class='right hide-on-med-and-down'>
+              <li>
+                <Link to='/about'>About Me</Link>
+              </li>
+              <li>
+                <Link to='/skills'>Skills</Link>
+              </li>
+              <li>
+                <Link to='/projects'>Projects</Link>
+              </li>
+            </ul>
+          </div>
+        </nav>
       </div>
     );
   }
