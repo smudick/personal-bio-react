@@ -36,7 +36,7 @@ export default class Projects extends React.Component {
           <Loader />
         ) : (
           <>
-            <h2>Projects</h2>
+            <h2 className="projects-header">Projects</h2>
             <div className='d-flex flex-wrap justify-content-center'>
               {showProjects()}
             </div>

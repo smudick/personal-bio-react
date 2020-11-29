@@ -23,65 +23,73 @@ export default function Skills() {
   const classes = useStyles();
   return (
     <>
-    <h2>Skills</h2>
-    <div className='skills-container'>
-      <Avatar className={classes.large}>
-        <i class='fab fa-js-square'></i>
-      </Avatar>
-      <Avatar className={classes.large}>
-        <i class='fab fa-css3-alt'></i>
-      </Avatar>
-      <Avatar className={classes.large}>
-        <i class='fab fa-html5'></i>
-      </Avatar>
-      <Avatar className={classes.large}>
-        <i class='fab fa-react'></i>
-      </Avatar>
-      <Avatar className={classes.large}>
-        <i class='fab fa-sass'></i>
-      </Avatar>
-      <Avatar className={classes.large}>
-        <i class='fab fa-js-square'></i>
-      </Avatar>
-      <Avatar className={classes.large}>
-        <i class='fab fa-apple'></i>
-      </Avatar>
-      <Avatar className={classes.large}>
-        <i class='fab fa-github-square'></i>
-      </Avatar>
-      <Avatar className={classes.large}>
-        <i class='fab fa-bootstrap'></i>
-      </Avatar>
-      <Avatar className={classes.large}>
-        <i class='fab fa-npm'></i>
-      </Avatar>
-      <Avatar className={classes.large}>
-        <i class='fab fa-figma'></i>
-      </Avatar>
-      <Avatar
-        className={classes.large}
-        src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/postmanlogo.png?alt=media&token=08652a8b-abd0-45c6-9d21-8895623c5798'
-        alt='postman logo'
-      />
-      <Avatar
-        className={classes.large}
-        src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/firebase-logo.png?alt=media&token=6232c6aa-957d-4abd-916c-740c6e1b5e86'
-        alt='firebase logo'
-      />
-      <Avatar
-        className={classes.large}
-        src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/netlify-logo.png?alt=media&token=0bc8271b-2bcd-411c-9196-471ebf1ac1f6'
-        alt='netlify logo'
-      />
-      <Avatar
-        className={classes.large}
-        src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/vscode-logo.png?alt=media&token=39b70d3f-9a81-47f5-82f7-edd7cf33794d'
-        alt='vscode logo'
-      />
-      <Avatar className={classes.large}>
-        <i class="fas fa-terminal"></i>
-      </Avatar>
-    </div>
+      <h2 className='skills-header'>Skills</h2>
+      <div className='skills-container'>
+        <Avatar className={classes.large}>
+          <i class='fab fa-js-square'></i>
+        </Avatar>
+        <Avatar className={classes.large}>
+          <i class='fab fa-css3-alt'></i>
+        </Avatar>
+        <Avatar className={classes.large}>
+          <i class='fab fa-html5'></i>
+        </Avatar>
+        <Avatar className={classes.large}>
+          <i class='fab fa-react'></i>
+        </Avatar>
+        <Avatar className={classes.large}>
+          <i class='fab fa-sass'></i>
+        </Avatar>
+        <Avatar className={classes.large}>
+          <i class='fab fa-github-square'></i>
+        </Avatar>
+        <Avatar className={classes.large}>
+          <i class='fab fa-apple'></i>
+        </Avatar>
+        <Avatar className={classes.large}>
+          <i class='fas fa-terminal'></i>
+        </Avatar>
+        <Avatar
+          className={classes.large}
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/firebase-logo.png?alt=media&token=6232c6aa-957d-4abd-916c-740c6e1b5e86'
+          alt='firebase logo'
+        />
+        <Avatar
+          className={classes.large}
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/vscode-logo.png?alt=media&token=39b70d3f-9a81-47f5-82f7-edd7cf33794d'
+          alt='vscode logo'
+        />
+        <Avatar
+          className={classes.large}
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/npm.png?alt=media&token=03c9215c-bf44-4018-863f-c088a9cdf57f'
+          alt='npm'
+        />
+        <Avatar
+          className={classes.large}
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/netlify-logo.png?alt=media&token=0bc8271b-2bcd-411c-9196-471ebf1ac1f6'
+          alt='netlify logo'
+        />
+        <Avatar
+          className={classes.large}
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/postmanlogo.png?alt=media&token=08652a8b-abd0-45c6-9d21-8895623c5798'
+          alt='postman logo'
+        />
+        <Avatar
+          className={classes.large}
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/figma.png?alt=media&token=08790ad2-8c13-4586-82a5-42925f790b38'
+          alt='figma logo'
+        />
+        <Avatar
+          className={classes.large}
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/bootstrap.png?alt=media&token=b13df827-307d-4757-a336-d23f0a58a61b'
+          alt='bootstrap'
+        />
+        <Avatar
+          className={classes.large}
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/materialize.png?alt=media&token=e15335db-5fe5-41aa-ac45-531cdbd4a898'
+          alt='materialize css'
+        />
+      </div>
     </>
   );
 }
