@@ -3,8 +3,46 @@
 @import 'variables';
 @import 'skills';
 @import 'projects';
+@import 'about';
 
 body {
-  background-color: #FFFFFF;
   font-family: 'Roboto', sans-serif;
+  position: relative;
+  min-height: 100vh
 }
+
+.page-navbar {
+  background-color: #6CABDD;
+}
+
+.brand-logo {
+  margin-left: 1em;
+}
+
+.brand-logo:hover {
+  color: black;
+}
+
+.page-footer {
+  width: 100%;
+  bottom: 0px;
+  padding: 1em;
+  background-color: #6CABDD;
+  color: white;
+  position: absolute;
+  bottom: 0;
+}
+.page-footer ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  list-style: none;
+  text-decoration: none;
+}
+
+.page-footer a {
+  color: white;
+  text-decoration: none;
+}
+
+

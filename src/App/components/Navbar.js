@@ -8,19 +8,19 @@ export default class MyNavbar extends React.Component {
     return (
       <div>
         <nav>
-          <div class='nav-wrapper'>
-            <Link to='/' class='brand-logo'>
+          <div class='nav-wrapper page-navbar'>
+            <Link style={{ textDecoration: 'none' }} to='/' class='brand-logo'>
               Sam Mudick
             </Link>
             <ul id='nav-mobile' class='right hide-on-med-and-down'>
               <li>
-                <Link to='/about'>About Me</Link>
+                <Link style={{ textDecoration: 'none' }} to='/about'>About Me</Link>
               </li>
               <li>
-                <Link to='/skills'>Skills</Link>
+                <Link style={{ textDecoration: 'none' }} to='/skills'>Skills</Link>
               </li>
               <li>
-                <Link to='/projects'>Projects</Link>
+                <Link style={{ textDecoration: 'none' }} to='/projects'>Projects</Link>
               </li>
             </ul>
           </div>
