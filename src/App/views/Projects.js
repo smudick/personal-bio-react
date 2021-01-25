@@ -15,8 +15,9 @@ export default class Projects extends React.Component {
 
   getProjectsToState = () => {
     getProjects().then((response) => {
+      const orderedProjects = response.sort((a, b) => ((a.order > b.order) ? 1 : -1));
       this.setState({
-        projects: response,
+        projects: orderedProjects,
         loading: false,
       });
     });
