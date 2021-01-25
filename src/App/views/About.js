@@ -36,7 +36,7 @@ export default class About extends React.Component {
             problem solving in a really fun and challenging way. I am very
             excited to learn and grow more as a developer! When I'm not
             developing I like to travel, play and watch soccer, brew beer, and
-            go on hikes with my wife and my dog, Pepper.
+            go on hikes with my wife Dani and my dog Pepper.
           </p>
         </div>
       </div>
