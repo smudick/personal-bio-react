@@ -11,7 +11,6 @@ export default class Main extends React.Component {
         <Skills />
         <Projects />
       </div>
-
     );
   }
 }
