@@ -7,8 +7,11 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  position: relative;
-  min-height: 100vh
+}
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .page-navbar {
@@ -25,12 +28,10 @@ body {
 
 .page-footer {
   width: 100%;
-  bottom: 0px;
   padding: 1em;
   background-color: #6CABDD;
   color: white;
-  position: absolute;
-  bottom: 0;
+  margin-top: auto;
 }
 .page-footer ul {
   display: flex;
@@ -44,5 +45,4 @@ body {
   color: white;
   text-decoration: none;
 }
-
 
