@@ -5,6 +5,7 @@
 package-lock.json
 dist/
 .firebase/
+.eslintcache
 
 # dependencies
 /node_modules

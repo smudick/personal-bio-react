@@ -12,11 +12,13 @@ export default class App extends React.Component {
   render() {
     return (
       <div className='App'>
+        <div className='main'>
         <Router>
           <MyNavbar />
           <Routes />
         </Router>
         <Footer />
+        </div>
       </div>
     );
   }
