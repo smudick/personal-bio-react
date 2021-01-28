@@ -1,31 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import 'firebase/auth';
-import { Link } from 'react-router-dom';
-import M from 'materialize-css';
+import {
+  Collapse,
+  Navbar,
+  NavbarToggler,
+  NavbarBrand,
+  Nav,
+  NavItem,
+  NavLink,
+} from 'reactstrap';
 
-export default class MyNavbar extends React.Component {
-  render() {
-    return (
-      <div>
-        <nav>
-          <div class='nav-wrapper page-navbar'>
-            <Link style={{ textDecoration: 'none' }} to='/' class='brand-logo'>
-              Sam Mudick
-            </Link>
-            <ul id='nav-mobile' class='right hide-on-med-and-down'>
-              <li>
-                <Link style={{ textDecoration: 'none' }} to='/about'>About Me</Link>
-              </li>
-              <li>
-                <Link style={{ textDecoration: 'none' }} to='/skills'>Skills</Link>
-              </li>
-              <li>
-                <Link style={{ textDecoration: 'none' }} to='/projects'>Projects</Link>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    );
-  }
-}
+const MyNavbar = (props) => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => setIsOpen(!isOpen);
+
+  return (
+    <div>
+      <Navbar className='page-navbar' expand='md'>
+        <NavbarBrand href='/'>Sam Mudick</NavbarBrand>
+        <NavbarToggler onClick={toggle} />
+        <Collapse isOpen={isOpen} navbar>
+          <Nav className='ml-auto' navbar>
+            <NavItem>
+              <NavLink href="../about">About Me</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="../skills">Skills</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="../projects">Projects</NavLink>
+            </NavItem>
+          </Nav>
+        </Collapse>
+      </Navbar>
+    </div>
+  );
+};
+
+export default MyNavbar;
