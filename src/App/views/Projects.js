@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCard from '../components/ProjectCards';
+import NewProjectCards from '../components/NewProjectCards';
 import getProjects from '../helpers/data';
 import Loader from './Loader';
 
@@ -26,7 +26,7 @@ export default class Projects extends React.Component {
   render() {
     const { projects, loading } = this.state;
     const showProjects = () => projects.map((project) => (
-        <ProjectCard
+        <NewProjectCards
           key={project.url}
           project={project}
         />
