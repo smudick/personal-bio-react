@@ -1,0 +1,41 @@
+@media screen and (max-width: 400px) {
+  .pic {
+    border-radius: 20px;
+    width: 300px;
+    height: 30%;
+    align-self: center;
+  }
+  .about-section {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .intro {
+    width: 80%;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+  .skills-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0;
+  }
+  i.fab {
+    font-size: 45px;
+  }
+  .skills-header {
+    text-align: center;
+  }
+  .projects-header {
+    text-align: center;
+  }
+  .page-footer ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    margin-left: -2.3em;
+  }
+}

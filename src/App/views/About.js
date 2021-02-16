@@ -4,7 +4,7 @@ export default class About extends React.Component {
   render() {
     return (
       <div className='d-flex flex-column align-items-center'>
-        <div className='d-flex justify-content-space-between m-3'>
+        <div className='d-flex justify-content-space-between m-3 about-section'>
           <div className='d-flex flex-column intro'>
           <h2>
             Hello!
@@ -21,7 +21,6 @@ export default class About extends React.Component {
             className='pic'
             src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/self-photo.jpeg?alt=media&token=4f887793-09d3-4770-960f-c516a784d2a1'
             alt='sam'
-            width='300'
           ></img>
         </div>
         <div className='about'>
