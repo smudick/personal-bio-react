@@ -69,7 +69,7 @@ export default function NewProjectCards(project) {
         image={project.project.screenshot}
         href={project.project.url}
         target="_blank"
-        rel="noopener"
+        rel="noreferrer"
         title={project.project.title}
       />
       <CardHeader
@@ -83,12 +83,12 @@ export default function NewProjectCards(project) {
       />
       <CardActions disableSpacing>
         <IconButton aria-label="url" color="white">
-          <Link href={project.project.url} target="_blank" rel="noopener">
+          <Link href={project.project.url} target="_blank" rel="noreferrer">
             <LinkIcon style={{ color: grey[50] }}/>
           </Link>
           </IconButton>
           <IconButton aria-label="github" color="white">
-          <Link href={project.project.githubUrl} target="_blank" rel="noopener">
+          <Link href={project.project.githubUrl} target="_blank" rel="noreferrer">
             <GitHubIcon style={{ color: grey[50] }}/>
           </Link>
           </IconButton>
