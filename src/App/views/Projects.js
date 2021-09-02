@@ -29,6 +29,7 @@ export default class Projects extends React.Component {
         <NewProjectCards
           key={project.url}
           project={project}
+          dark={this.props.dark}
         />
     ));
     return (

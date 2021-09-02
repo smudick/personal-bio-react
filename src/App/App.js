@@ -2,7 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router } from 'react-router-dom';
 import fbConnection from './helpers/connection';
 import Routes from './helpers/Routes';
-import Footer from './components/Footer';
 
 fbConnection();
 
@@ -15,7 +14,7 @@ export default class App extends React.Component {
           {/* <MyNavbar /> */}
           <Routes />
         </Router>
-        <Footer />
+        {/* <Footer /> */}
         </div>
       </div>
     );
