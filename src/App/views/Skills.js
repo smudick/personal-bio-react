@@ -7,7 +7,7 @@ export default function Skills() {
       <div className='skills-container'>
         <img
           className='skills-icon'
-          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/js%20icon.png?alt=media&token=1b7853f8-6e54-443e-8b20-a1ecf3667e34'
+          src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/512px-JavaScript-logo.png'
           width='100'
           height='100'
           alt='javascript logo'
@@ -42,16 +42,16 @@ export default function Skills() {
         />
         <img
           className='skills-icon'
-          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/microsoft-sql-server-logo.png?alt=media&token=ec317505-86f9-43da-932b-9fd6ee1946ac'
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/sql-server-icon-png-8.png?alt=media&token=0c297850-6f91-4ded-89d8-9e9a15f2ee9b'
           width='100'
           height='100'
           alt='sql server'
         />
         <img
           className='skills-icon'
-          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/oracle.png?alt=media&token=ed2d3885-1afc-490a-b619-1e24345a65e6'
-          width='100'
-          height='100'
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/file_plsql.png?alt=media&token=36f25a22-4335-4de4-a743-5833574499ab'
+          width='120'
+          height='120'
           alt='oracle plsql'
         />
         <img
@@ -63,14 +63,14 @@ export default function Skills() {
         />
         <img
           className='skills-icon'
-          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/html5-icon.png?alt=media&token=58f8141d-916d-420f-a3fd-84b16a7bf8f3'
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/294678_html5_icon.png?alt=media&token=55d1dc28-565d-42a7-9c46-7d2c8692e820'
           width='100'
           height='100'
           alt='html logo'
         />
         <img
           className='skills-icon'
-          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/css-icon.png?alt=media&token=ae80f524-e3b9-41bb-82d0-857e26c3db70'
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/294692_css3_icon.png?alt=media&token=c58392db-cbed-48ab-82e1-612d168a37f4'
           width='100'
           height='100'
           alt='css logo'
@@ -84,7 +84,7 @@ export default function Skills() {
         />
         <img
           className='skills-icon'
-          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/github%20icon.png?alt=media&token=b5b99c2f-1ed1-4ec8-bcd6-44ed460c50e8'
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/2993771_github_social%20media_icon.png?alt=media&token=997aa355-1d87-496a-8c86-3e4623074392'
           width='100'
           height='100'
           alt='github logo'
@@ -105,7 +105,7 @@ export default function Skills() {
         />
         <img
           className='skills-icon'
-          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/postmanlogo.png?alt=media&token=08652a8b-abd0-45c6-9d21-8895623c5798'
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/postman.png?alt=media&token=b2324b0e-21d2-484c-9fbe-6c498ec7b964'
           width='100'
           height='100'
           alt='postman logo'
@@ -140,7 +140,7 @@ export default function Skills() {
         />
         <img
           className='skills-icon'
-          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/apple%20logo.png?alt=media&token=d1f17c38-260b-4115-8296-b458c80bc6fe'
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/317757_apple_macintosh_steve%20jobs_icon.png?alt=media&token=d6164edc-386b-40ec-997d-c386bda0582a'
           width='100'
           height='100'
           alt='apple logo'
@@ -154,7 +154,7 @@ export default function Skills() {
         />
         <img
           className='skills-icon'
-          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/terminal.png?alt=media&token=05ce4a14-ba7e-478a-ac0e-65d279187540'
+          src='https://firebasestorage.googleapis.com/v0/b/sam-mudick.appspot.com/o/285695_terminal_icon.png?alt=media&token=40cfa823-b73d-4251-8e98-9b92e418f52e'
           width='100'
           height='100'
           alt='terminal logo'
